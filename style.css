@@ -1,0 +1,63 @@
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.main {
+	background-color: #fafafa;
+}
+
+.container {
+	max-width: 992px;
+	margin: 0 auto;
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+	margin-bottom: .4rem;
+}
+
+.row:last-child {
+	margin-bottom: 0;
+}
+
+.row-content {
+	flex-grow: 1;
+	position: relative;
+	margin-right: .4rem;
+}
+
+.row-content::before {
+	content: "";
+	display: block;
+	padding-top: 100%;
+}
+
+.row-content:last-child {
+	margin-right: 0;
+}
+
+.img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
