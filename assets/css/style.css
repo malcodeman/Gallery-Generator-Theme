@@ -1,65 +1,56 @@
-body {
-	margin: 0;
-}
-
 a {
 	text-decoration: none;
 }
 
+body,
 h1,
 h2,
 h3,
 p {
-	margin-top: 0;
-	margin-bottom: 0;
-}
-
-ul{
-	padding-left: 0;
 	margin: 0;
 }
 
-.main {
+ul {
+	margin: 0;
+	padding-left: 0;
+}
+
+.page {
 	background-color: #fafafa;
 }
 
 .container {
-	max-width: 992px;
 	margin: 0 auto;
-	width: 100%;
+	max-width: 992px;
 }
 
-.header{
-	padding-bottom: 1rem;
-}
-
-.ul{
-	list-style-type: none;
+.ul {
 	display: flex;
 	justify-content: space-around;
-	padding-bottom: 1rem;
+	list-style-type: none;
+	padding: 1rem;
 }
 
-.li{
+.li {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	font-family: Open Sans;
 }
 
-.li span:nth-child(1){
+
+/* Numbers */
+
+.li span:nth-child(1) {
 	color: #131313;
-	font-size: 1rem;
+	font: 300 1rem/1 Roboto;
 }
 
-.li span:nth-child(2){
-	color: #353535;
-	font-size: .8rem;
-}
 
-.col {
-	display: flex;
-	flex-direction: column;
+/* Text */
+
+.li span:nth-child(2) {
+	color: #999;
+	font: 300 .8rem/1 Roboto;
 }
 
 .row {
@@ -67,31 +58,40 @@ ul{
 	margin-bottom: .4rem;
 }
 
+
+/* Removes margin bottom from last row in column */
+
 .row:last-child {
 	margin-bottom: 0;
 }
 
-.row-content {
+
+/* Aspect ratio problem https://css-tricks.com/aspect-ratio-boxes/ */
+
+.row-item {
 	flex-grow: 1;
-	position: relative;
 	margin-right: .4rem;
+	position: relative;
 }
 
-.row-content::before {
+.row-item::before {
 	content: "";
 	display: block;
 	padding-top: 100%;
 }
 
-.row-content:last-child {
+
+/* Removes margin right from last row item in row */
+
+.row-item:last-child {
 	margin-right: 0;
 }
 
-.row-content img {
+.row-item img {
+	height: 100%;
+	left: 0;
+	object-fit: cover;
 	position: absolute;
 	top: 0;
-	left: 0;
-	height: 100%;
 	width: 100%;
-	object-fit: cover;
 }

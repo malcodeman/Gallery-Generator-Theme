@@ -1,15 +1,16 @@
-![Preview image](preview.png)
 # Gallery Generator-Theme
-Simple instagram-like template
+Simple instagram-like image gallery.
+
+![Homepage image](screenshots/homepage.png)
 
 ## Assets
 
-### Gallery
+### Images
 * [Lena Meyer-Landrut](https://www.instagram.com/lenas_view/)
 
 ### Fonts
-* [Open Sans](https://fonts.google.com/specimen/Open+Sans)
-* [Raleway](https://fonts.google.com/specimen/Raleway)
+* [Lora](https://fonts.google.com/specimen/Lora)
+* [Roboto](https://fonts.google.com/specimen/Roboto)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
