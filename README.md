@@ -12,7 +12,7 @@ Images can be scaled up or down but the aspect ratio will remain the same.
 ## Assets
 
 ### Images
-* [Lena Meyer-Landrut](https://www.instagram.com/lenas_view/)
+* [Lena Meyer-Landrut](https://www.instagram.com/lenameyerlandrut)
 
 ### Fonts
 * [Roboto](https://fonts.google.com/specimen/Roboto)
