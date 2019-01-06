@@ -6,12 +6,12 @@ This theme was created for [Pygram](https://github.com/malcodeman/Pygram) - stat
 
 Aspect ratio problem was solved with viewport units.
 
-![Screenshot](docs/images/screenshot.jpg?raw=true)
+![Screenshot](docs/images/screenshot.jpg)
 
 ## Assets
 
 - [Lena Meyer-Landrut images](https://www.instagram.com/lenameyerlandrut)
-
+- [Madison Beer images](https://www.instagram.com/madisonbeer)
 - [Roboto font](https://fonts.google.com/specimen/Roboto)
 
 ## License
