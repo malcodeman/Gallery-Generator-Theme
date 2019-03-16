@@ -31,6 +31,7 @@ ul {
 
 .page {
   background-color: #fafafa;
+  min-height: 100vh;
 }
 
 @media (min-width: 768px) {
@@ -88,4 +89,5 @@ ul {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
 }
